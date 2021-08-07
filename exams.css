@@ -1,0 +1,106 @@
+/* Mahesh Singh
+CSCB20 - Web Design and Databases
+Assignment 3 - Web Application and Database
+Description - My task for this assignment is to write the HTML, CSS, JavaScript and PHP code for a Web app that accesses a final exam timetable database site. My app will show the exam time based on the course name, course intructor and/or date of the course exam.
+Summary - This file is the CSS portion of the assignment. All styling is done within this file.*/
+
+body{
+	/*size*/
+	width: 100%;
+	height: 100%;
+	/*background*/
+	background-color: #D4D3D3;
+}
+
+h2{
+	/*text*/
+	font-size: 30px;
+	color: blue;
+}
+
+#frame{
+	/*size*/
+	width: 90%;
+	height: auto;
+	/*alignment*/
+	margin: auto;
+	text-align: center;
+	/*background*/
+	background-color: white;
+	/*border*/
+	border-style: solid;
+	border-width: 30px;
+	border-color: blue;
+
+}
+
+#main{
+	color: black;
+	/*alignment*/
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 50px;
+}
+
+table{
+	/*size*/
+	width: 800px;
+	height: auto;
+	/*border*/
+	border-style: solid;
+	border-width: 1px;
+	border-color: #D4D3D3;
+	/*alignment*/
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 50px;
+}
+
+th, td {
+    text-align: center;
+    padding: 8px;
+}
+
+tr:nth-child(odd){
+	/*set every other row to be this colour*/
+	background-color: #D4D3D3
+}
+
+#search{
+	/*size*/
+	width: 75%;
+	height: 50px;
+	/*border*/
+	border-style: solid;
+	border-width: 1px;
+	border-color: black;
+	/*alignment*/
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 50px;
+	text-align: center;
+	padding: 15px;
+}
+
+#search_title{
+	/*size*/
+	width: 145px;
+	/*text*/
+	font-size: 20px;
+	/*alignment*/
+	float: top;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: -25px;
+	/*background*/
+	background-color: white;
+}
+
+img{
+	/*style the utsc logo*/
+	/*size*/
+	width: 20%;
+	height: auto;
+	/*alignment*/
+	padding: 15px;
+}
